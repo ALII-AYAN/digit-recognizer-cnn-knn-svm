@@ -1,0 +1,43 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data (never commit datasets - they are huge)
+data/*
+!data/.gitkeep
+!data/README.md
+!data/MNIST/.gitkeep
+!data/custom/.gitkeep
+*.idx3-ubyte
+*.idx1-ubyte
+*.gz
+
+# Trained models ( artefacts, regenerate with `python -m src.train` )
+models/*
+!models/.gitkeep
+*.keras
+*.h5
+*.joblib
+*.pkl
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/

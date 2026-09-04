@@ -1,0 +1,16 @@
+# Runtime
+numpy>=1.23,<2.0
+opencv-python>=4.7
+scikit-image>=0.20
+scikit-learn>=1.2
+joblib>=1.2
+matplotlib>=3.6
+
+# Deep learning (CPU build; use tensorflow>=2.13 for GPU support on Windows/Linux)
+tensorflow>=2.12
+
+# Desktop GUI (only needed for `python -m app.gui`)
+PyQt5>=5.15
+
+# Tests
+pytest>=7.0
